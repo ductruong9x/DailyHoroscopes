@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/setup"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/caidat"
+        >
+    </item>
+    <item
+        android:id="@+id/invate"
+        android:title="@string/moibanbe">
+    </item>
+    <item
+        android:id="@+id/rate"
+        android:title="@string/rate">
+    </item>
+    <item
+        android:id="@+id/devinfo"
+        android:title="@string/dev">
+    </item>
+
+</menu>

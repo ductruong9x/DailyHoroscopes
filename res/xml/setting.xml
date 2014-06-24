@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="notification"
+        android:title="@string/notification" >
+        <CheckBoxPreference
+            android:key="caidatthongbao"
+            android:title="@string/onoff" />
+        <CheckBoxPreference
+            android:key="loadanh"
+            android:title="@string/onoffimage" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/thongtin" >
+        <Preference
+            android:key="info"
+            android:title="@string/info" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

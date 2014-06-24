@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">Daily Horoscopes</string>
+    <string name="app_id">296843060493935</string>
+    <string name="member">Member: %d</string>
+    <string name="detail">Detail</string>
+    <string name="content_login">You need to connect with facebook to use application</string>
+    <string name="comment">Comment</string>
+    <string name="content_text">Click to view horoscope today</string>
+    <string name="caidat">Setup</string>
+    <string name="moibanbe">Invite a Friend</string>
+    <string name="rate">Vote</string>
+    <string name="dev">Dev Info</string>
+    <string name="facebook">You need to connect with facebook to use application</string>
+    <string name="notification">Customize</string>
+    <string name="onoff">Turn on / off daily alerts</string>
+    <string name="onoffimage">Enable / disable loading image</string>
+    <string name="info">Dev info</string>
+    <string name="thongtin">Info</string>
+
+    <color name="blue">#42A3FF</color>
+
+    <color name="blue_press">#214465</color>
+
+    <string name="thank">I really thank you when you evaluate my application ...</string>
+    <string name="title">Vote for my app :)</string>
+    <string name="content">You can vote for my application???</string>
+    <string name="ok">Ok</string>
+    <string name="novote">Do not show again</string>
+    <string name="later">Later</string>
+	<string name="news_feed">Daily Horoscopes</string>
+	<string name="code">Insomnia constellation</string>
+</resources>

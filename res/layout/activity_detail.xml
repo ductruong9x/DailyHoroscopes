@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEDEDE"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="6dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/ic_time"
+            android:textColor="@color/app_color" />
+
+        <TextView
+            android:id="@+id/tvTimeDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/text_icon"
+            android:text="Time"
+            android:textColor="@color/app_color"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_top" >
+
+        <TextView
+            android:id="@+id/tvAllContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textIsSelectable="true"
+            android:textStyle="bold" >
+        </TextView>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btnLike"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/adFragment"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_like"
+        android:clickable="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btnShareDetail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/adFragment"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_share_circle"
+        android:clickable="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btnMenu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/adFragment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:alpha="0.7"
+        android:clickable="true"
+        android:src="@drawable/ic_default" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-6063844612770322/5812967691"
+       />
+
+</RelativeLayout>
