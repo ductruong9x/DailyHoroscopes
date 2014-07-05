@@ -39,13 +39,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Input comment..." />
+            android:hint="Input comment..." 
+            style="@style/Edittext"/>
 
         <Button
             android:id="@+id/btnComment"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/btnsend"
+            android:background="@color/white"
+            android:text="Send"
+            android:textColor="@color/app_color"
             android:layout_marginRight="5dp" />
     </LinearLayout>
 

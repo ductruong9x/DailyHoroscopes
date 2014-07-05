@@ -27,6 +27,8 @@
     <color name="chat_user_text_color">#727272</color>
     <color name="yellows">#E5F512</color>
     <color name="gray">#EAEAEA</color>
-    <color name="app_color">#2357bc</color>
+    <color name="app_color">#e91e63</color>
+    <color name="start">#00053c</color>
+    
 
 </resources>

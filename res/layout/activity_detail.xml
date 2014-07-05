@@ -35,6 +35,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@+id/startAppBanner"
         android:layout_below="@+id/layout_top" >
 
         <TextView
@@ -82,21 +83,18 @@
         android:id="@+id/btnMenu"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_above="@+id/adFragment"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
         android:alpha="0.7"
         android:clickable="true"
-        android:src="@drawable/ic_default" />
+        android:src="@drawable/ic_default" 
+        android:layout_above="@+id/startAppBanner"/>
 
-    <com.google.android.gms.ads.AdView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        app:adSize="SMART_BANNER"
-        app:adUnitId="ca-app-pub-6063844612770322/5812967691"
-       />
+   <com.startapp.android.publish.banner.Banner 
+          android:id="@+id/startAppBanner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
